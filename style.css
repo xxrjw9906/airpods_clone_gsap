@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Reset CSS Style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Navigation Bar Style */
+header nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .nav-content{
+  width: 100%;
+  max-width: 980px;
+}
+
+header .nav-content ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-content ul a{
+  color: #d5d5d5;
+  font-size: .75rem;
+  line-height: 2.75rem;
+}
+
+header .nav-content ul a:hover{
+  color: #fff;
+}
+
+header .logo a i, header .search a i, header .bag a i{
+  font-size: 1.125rem;
+}
+
+header .airpod-navbar .nav-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav-logo a{
+  color: #fefefe;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+header .nav-items button{
+  color: #fefefe;
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  margin-left: 1.5rem;
+}
+
+header .nav-items button:disabled, header .nav-items button:disabled:hover{
+ color: #bebebe;
+ cursor: default;
+}
